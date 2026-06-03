@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAMROOT Toolkit Download</title>
+    <style>
+        :root {
+            --android-green: #3DDC84;
+            --terminal-dark: #0A0A0A;
+            --terminal-card: #141414;
+            --alert-red: #FF5555;
+            --text-muted: #888888;
+        }
+
+        body {
+            background-color: var(--terminal-dark);
+            color: #FFFFFF;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        header {
+            border-bottom: 2px solid var(--android-green);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--android-green);
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .download-box {
+            background-color: var(--terminal-card);
+            border: 1px solid var(--android-green);
+            padding: 20px;
+            border-radius: 4px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .btn-download {
+            background-color: var(--android-green);
+            color: var(--terminal-dark);
+            padding: 12px 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-family: inherit;
+            transition: opacity 0.2s;
+        }
+
+        .btn-download:hover {
+            opacity: 0.9;
+        }
+
+        .socials-box {
+            background-color: var(--terminal-card);
+            border: 1px dashed var(--android-green);
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+        }
+
+        .socials-box h2 {
+            color: var(--android-green);
+            margin-top: 0;
+            font-size: 1.3rem;
+        }
+
+        .socials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-link {
+            border: 1px solid var(--text-muted);
+            color: #FFFFFF;
+            padding: 12px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: all 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-link .sub-text {
+            font-size: 0.75rem;
+            font-weight: normal;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .social-link:hover {
+            border-color: var(--android-green);
+            color: var(--android-green);
+            background-color: rgba(61, 220, 132, 0.05);
+        }
+
+        .social-link:hover .sub-text {
+            color: var(--android-green);
+        }
+
+        .contact-box {
+            background-color: var(--terminal-card);
+            border: 1px solid var(--text-muted);
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+        }
+
+        .contact-box h2 {
+            color: #FFFFFF;
+            margin-top: 0;
+            font-size: 1.3rem;
+        }
+
+        .email-link {
+            color: var(--android-green);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .card {
+            background-color: var(--terminal-card);
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .card-disclaimer {
+            border-left: 4px solid var(--android-green);
+        }
+
+        .card-warning {
+            border-left: 4px solid var(--alert-red);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.3rem;
+        }
+
+        .card-disclaimer h2 {
+            color: var(--android-green);
+        }
+
+        .card-warning h2 {
+            color: var(--alert-red);
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 10px 0 0 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        strong {
+            color: #FFFFFF;
+        }
+
+        .blinking-cursor {
+            font-weight: bold;
+            color: var(--android-green);
+            animation: blink 1s step-start infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>TEAMROOT ROOT TOOL & MORE<span class="blinking-cursor">_</span></h1>
+        <p class="subtitle">Retro Android Modding and Goldcard Utility Suite</p>
+    </header>
+
+    <main>
+        <!-- Download Section -->
+        <div class="download-box">
+            <h2>Toolkit Download</h2>
+            <p>Get the complete historical compilation including platform-tools and wrapper utilities.</p>
+            <a href="Rootkit.zip" class="btn-download">DOWNLOAD ROOTKIT.ZIP</a>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="socials-box">
+            <h2>Links</h2>
+            <p class="subtitle">Check out the project development and video content:</p>
+            <div class="socials-grid">
+                <!-- Replace href values with your actual profile links -->
+                <a href="https://github.com" target="_blank" class="social-link">
+                    <span>GitHub Profile</span>
+                    <span class="sub-text">Source Code & Scripts</span>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="social-link">
+                    <span>YouTube Channel</span>
+                    <span class="sub-text">Videos Coming Soon</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-box">
+            <h2>Contact Me</h2>
+            <p class="subtitle">For project inquiries, bugs, or feedback, reach out via email:</p>
+            <p style="margin: 10px 0 0 0;">
+                Email: <a href="mailto:therealteamroot@gmail.com" class="email-link">therealteamroot@gmail.com</a>
+            </p>
+        </div>
+
+        <!-- False Positive Disclaimer -->
+        <div class="card card-disclaimer">
+            <h2>Notice: Antivirus Flags and False Positives</h2>
+            <ul>
+                <li><strong>Why this happens:</strong> The toolkit utilizes historic local privilege escalation exploits (such as rageagainstthecage and zergrush) to gain root access on old Android systems. Antivirus engines recognize these code signatures as security flaws, even though they are used here safely and intentionally for device modding.</li>
+                <li><strong>Security Assurance:</strong> This project contains no malware, spyware, trojans, or remote-access payloads. The complete source code of the wrapper scripts is open and visible in this repository for audit.</li>
+                <li><strong>Resolution:</strong> If your security suite blocks the toolkit, you will need to add an exclusion rule for the installation folder or temporarily pause real-time protection during data transfers over the ADB interface.</li>
+            </ul>
+        </div>
+
+        <!-- Brick Warning -->
+        <div class="card card-warning">
+            <h2>Warning: Risk of Device Malfunction (Bricking)</h2>
+            <ul>
+                <li><strong>Soft-Bricks:</strong> Bootloops or failing to initialize system daemons can usually be recovered by entering Fastboot mode or using factory recovery utilities (such as Odin for Samsung devices).</li>
+                <li><strong>Hard-Bricks:</strong> Interrupting low-level flashing operations, corrupting sector 0 of boot storage, or applying incorrect engineering parameters can result in a hard-brick. A hard-brick renders the phone completely unresponsive and un-bootable.</li>
+                <li><strong>User Responsibility:</strong> This software is provided "as-is" without any warranty. You assume all responsibility and risk when executing these tools on your hardware. Ensure your phone has a stable battery charge and a secure Micro-USB connection before initiating any flashing actions.</li>
+            </ul>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
